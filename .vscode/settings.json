@@ -1,0 +1,9 @@
+{
+    "open-in-browser.default": "https://www.google.com.ar/?hl=es-419",
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "liveServer.settings.ChromeDebuggingAttachment": false,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.wait": 100,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500
+}
