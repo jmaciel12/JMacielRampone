@@ -68,8 +68,6 @@ console.log(suma);
 
 // Ejercicio 4
 
-// a
-
 let healingIsDifficult = ['Fear',
     'Drink to Get Drunk',
     'Taken for Granted',
@@ -83,25 +81,7 @@ let healingIsDifficult = ['Fear',
     'Insidiously'];
 
 for (i=0; i < healingIsDifficult.length; i ++){
-    console.log(healingIsDifficult[i]);
-}
-
-//b
-
-let healingIsDifficult = ['Fear',
-    'Drink to Get Drunk',
-    'Taken for Granted',
-    'Blow It All Away',
-    'Get Me',
-    'Im Not Important to You',
-    'Sober and Unkissed',
-    'Healing Is Difficult',
-    'Judge Me',
-    'Little Man',
-    'Insidiously'];
-
-for (i=0; i < healingIsDifficult.length; i ++){
-    console.log((i + 1) healingIsDifficult[i]);
+    console.log((i + 1) ,healingIsDifficult[i]);
 }
 
 // Ejercicio 5
@@ -134,7 +114,7 @@ let got = [
 
 for (let i = 0; i < got.length; i++) {
     let persona = got[i];
-    let nombrecompleto = persona.nombre + " " + persona.apellido;
+    let nombreCompleto = persona.nombre + " " + persona.apellido;
 
     console.log("Hola " + nombreCompleto + " criatura viajera!");
 
@@ -142,6 +122,7 @@ for (let i = 0; i < got.length; i++) {
         console.log("Soy " + nombreCompleto + " de la ciudad " + persona.ciudad);
     }
 }
+
 
 
 
