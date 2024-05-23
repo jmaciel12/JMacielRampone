@@ -33,11 +33,11 @@ let auto = {
     },
 }
 
-vehiculo.avanzar(10)
-console.log("La posicion es", vehiculo.posicion, "luego de avanzar 10 metros en un segundo.")
+auto.avanzar(10)
+console.log("La posicion es", auto.posicion, "luego de avanzar 10 metros en un segundo.")
 
-vehiculo.retroceder(5)
-console.log("La posicion es de", vehiculo.posicion, "luego de retroceder 5 metros en un segundo.")
+auto.retroceder(5)
+console.log("La posicion es de", auto.posicion, "luego de retroceder 5 metros en un segundo.")
 
 // Ejercicio 4
 
@@ -58,7 +58,7 @@ let nuevoAuto = {
 }
 
 nuevoAuto.moverse(15)
-console.log("La posicion es de", vehiculo_moderno.posicion, "luego de moverse 15 metros positivos en un segundo.")
+console.log("La posicion es de", nuevoAuto.posicion, "luego de moverse 15 metros positivos en un segundo.")
 
 // Ejercicio 5
 
