@@ -1,10 +1,8 @@
 // a
-let nacion = prompt("Ingrese su nacionalidad: ");
-let nacionalidad = nacion;
-let ingresoProfesion = prompt("Ingrese su profesión: ");
-let profesion = ingresoProfesion;
-let ingresoKmtrs = prompt("Ingresa los Km que caminas por día: ");
-let kilometros = parseInt(ingresoKmtrs);
+let nacionalidad = prompt("Ingrese su nacionalidad: ");
+let profesion = prompt("Ingrese su profesión: ");
+let kilometros = parseInt(prompt("Ingresa los Km que caminas por día: "));
+
 
 // b
 function filosofoHipster(nacionalidad, profesion, kmRecorridos) {
